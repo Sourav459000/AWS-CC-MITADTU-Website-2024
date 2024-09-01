@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Club - MIT ADTU</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="images/logos/aws-cc-logo-icon.png">
+    
+</head>
+<body>
+    <div class="header">
+        <a class="aws-cc-logo" href="index.html"><img src="images/logos/aws-cc-logo.png"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#our-team">Our Team</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+ 
+            <button class="responsive-nav-dropdown" onclick="responsiveNavbar()">
+                <i id="dropdown-btn" class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#our-team">Our Team</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+        <img src="images/logos/mit-logo.png">
+    </div>
+
+    <div id="home" class="home-section">
+        <img src="images/website-imgs/aws-cc-group-photo.jpg">
+        <div class="club-name-heading"></div>
+        <div class="headline-meetup-btn">
+            <p>Empowering Student Innovators in the Cloud with AWS Technology</p>
+            <a href="https://www.meetup.com/aws-cloud-club-at-mit-adtu/" target="_blank">Join Meetup</a>
+        </div>
+    </div>
+
+    <div id="about-us" class="about-us-section">
+        <h2>About Us</h2>
+        <p class="about-us-desc">The AWS Cloud Club - MIT ADTU is a dynamic and student-driven community dedicated to exploring the boundless possibilities of cloud technology through the lens of Amazon Web Services (AWS).</p>
+        <div class="about-us-vision-mission">
+            <img class="about-us-img1" src="images/website-imgs/about-us/about-us-img1.jpg">
+            <img class="about-us-img2" src="images/website-imgs/about-us/about-us-img2.jpg">
+            <img class="about-us-img3" src="images/website-imgs/about-us/about-us-img3.jpg">
+            <img class="about-us-img4" src="images/website-imgs/about-us/about-us-img4.jpg">
+            <div class="about-us-text">
+                <div class="vision">
+                    <h3>Our Vision</h3>
+                    <ul>
+                        <li>Cultivate a dynamic, student-led community passionate about AWS.</li>
+                        <li>Provide expert-guided, in-depth education on Amazon Web Services.</li>
+                        <li>Offer practical, hands-on experiences aligning with market trends.</li>
+                    </ul>
+                </div>
+
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <ul>
+                        <li>Educate students diverse AWS applications: security, AI, etc.</li>
+                        <li>Host events and workshops focused on AWS cloud computing.</li>
+                        <li>Foster industry connections, providing networking and insights.</li>
+                        <li>Enrich understanding through guest speakers' invaluable insights.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="events" class="events-section">
+        <h2>Events</h2>
+        <div class="events-carousel">
+            <!-- <button onclick="prevEvent()">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button> -->
+            <div class="all-events-cards" ontouchstart="touchstart(event)" ontouchmove="touchmove(event)" ontouchend="touchend()">
+
+                <div class="event-card">
+                    <img src="images/website-imgs/events/event-5.png">
+                    <div class="event-desc">
+                        <h3>AWS Cloud Club Student Symposia</h3>
+                        <p>Dive into the AWS experience at AWS Cloud Club Student Symposium Pune 2023 and let technology redefine your limits.</p>
+                        <a href="event-reports/event-5-report.pdf" target="_blank">View Report</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <img src="images/website-imgs/events/event-4.png">
+                    <div class="event-desc">
+                        <h3>Storage and Databases in AWS</h3>
+                        <p>An exciting AWS Cloud Club event where Mr. Santosh Mamil took a dive deep into the world of storage and databases on AWS!</p>
+                        <a href="event-reports/event-4-report.pdf" target="_blank">View Report</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <img src="images/website-imgs/events/event-3.png">
+                    <div class="event-desc">
+                        <h3>Introduction to AWS and its Compute Services</h3>
+                        <p>An illuminating session on LinkedIn with Dr. Rajani Sajjan, unlocking the vast potential of Amazon Web Services.</p>
+                        <a href="event-reports/event-3-report.pdf" target="_blank">View Report</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <img src="images/website-imgs/events/event-2.png">
+                    <div class="event-desc">
+                        <h3>AWS Cloud Security Fundamentals</h3>
+                        <p>An enlightening and interactive hands-on workshop centered around the dynamic realm of AWS Cloud Security delivered by Mr. Vishal Alhat.</p>
+                        <a href="event-reports/event-2-report.pdf" target="_blank">View Report</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <img src="images/website-imgs/events/event-1.png">
+                    <div class="event-desc">
+                        <h3>AWS Cloud Club - MIT-ADTU Inauguration Ceremony</h3>
+                        <p>An exhilarating journey into the world of cloud computing marking the beginning of a new era with the Inauguration Ceremony of the AWS Cloud Club at MIT ADTU!</p>
+                        <a href="event-reports/event-1-report.pdf" target="_blank">View Report</a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <button onclick="nextEvent()">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button> -->
+
+            <div class="carousel-btns">
+                <div onclick="eventSlider(0)" class="circle-btn"></div>
+                <div onclick="eventSlider(1)" class="circle-btn"></div>
+                <div onclick="eventSlider(2)" class="circle-btn"></div>
+                <div onclick="eventSlider(3)" class="circle-btn"></div>
+                <div onclick="eventSlider(4)" class="circle-btn"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="our-team" class="our-team-section">
+        <h2>Meet Our Team</h2>
+        <h3>The Board</h3>
+
+        <div class="team-orientation-flex">
+            <div class="the-board-card">
+                <div class="team-details">
+                    <img class="the-board-img" src="images/team-member-imgs/core-team/RajaniMaam-img.jpg">
+                    <h4>Faculty Co-ordinator</h4>
+                    <p>Dr. Rajani Sajjan</p>
+                    <div class="team-socials">
+                        <a href="mailto:rajani.sajjan@mituniversity.edu.in" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rajani-sajjan/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="the-board-card">
+                <div class="team-details">
+                    <img class="the-board-img" src="images\team-member-imgs\core-team\Sankalp-img.jpg">
+                    <h4>AWS Cloud Captain</h4>
+                    <p>Sankalp S. Paranjpe</p>
+                    <div class="team-socials">
+                        <a href="mailto:sankalp.paranjpe@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sankalp-s-paranjpe/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/sankalpsp07" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-team-members-details">
+            <div id="1" class="dark-bg-teams">
+                <h3>Core Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(1)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Rahul-img.jpg">
+                            <h4>Vice President</h4>
+                            <p>Rahul Chaukse </p>
+                            <div class="team-socials">
+                                <a href="mailto:rahulchaukse88@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rahul-chaukse-679489232" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Rahulchaukse" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Kritika-img.jpg">
+                            <h4>Secretary</h4>
+                            <p>Kritika Srivastava</p>
+                            <div class="team-socials">
+                                <a href="mailto: srivastava.kritika1306@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rtr-kritika-srivastava-2565b1203" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Ruchi-img.png">
+                            <h4>Community Manager</h4>
+                            <p>Ruchi Ranka</p>
+                            <div class="team-socials">
+                                <a href="mailto: ruchiranka2103@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ruchi-ranka/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/RuchiRanka" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Ritik-img.png">
+                            <h4>Management Team Head</h4>
+                            <p>Ritik Bohra</p>
+                            <div class="team-socials">
+                                <a href="mailto: ritikbohra2@gmail.com " target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ritik-bohra/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ritikjainbohra14" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Monil-img.png">
+                            <h4>Community Manager</h4>
+                            <p>Monil Karia</p>
+                            <div class="team-socials">
+                                <a href="mailto:monilkaria2019@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/monil-karia/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Monil-Karia" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Saloni-img.jpeg">
+                            <h4>Technical Team Head</h4>
+                            <p>Saloni Sawant</p>
+                            <div class="team-socials">
+                                <a href="mailto: salonisawant.2808@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/salonisawant28" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/salonisawant" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Gurbani-img.jpeg">
+                            <h4>Documentation Team Head</h4>
+                            <p>Gurbani Gambhir</p>
+                            <div class="team-socials">
+                                <a href="mailto: gurbanigambhir23023@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/gurbani-gambhir-9a0762221" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/gurbani-19" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Rohit-img.jpeg">
+                            <h4>Design Team Head</h4>
+                            <p>Rohit Gadoya</p>
+                            <div class="team-socials">
+                                <a href="mailto: rjshah7445@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rohit-gadoya-5048b1233" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Rohit06G" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Shruti-img.jpg">
+                            <h4>Publicity Team Head</h4>
+                            <p>Shruti Deshmukh</p>
+                            <div class="team-socials">
+                                <a href="mailto: shreshmukh24@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/ shrutiganeshraodeshmukh" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ShrutiDeshmukh-2404" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(1)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="2" class="light-bg-teams">
+                <h3>AWS Certified Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(2)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-members">
+                        
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Sankalp-img.jpg">
+                            <h4>Member</h4>
+                            <p>Sankalp S. Paranjpe</p>
+                            <div class="team-socials">
+                                <a href="" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Monil-img.png">
+                            <h4>Member</h4>
+                            <p>Monil Karia</p>
+                            <div class="team-socials">
+                                <a href="mailto:monilkaria2019@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/monil-karia/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Monil-Karia" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/aws-certified-team/Musaib-img.jpg">
+                            <h4>Member</h4>
+                            <p>Mohammad M Akhter</p>
+                            <div class="team-socials">
+                                <a href="mailto: musaabmallick163@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mohammadmusaibakhter" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/musaab1104" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/aws-certified-team/Anish-img.jpg">
+                            <h4>Member</h4>
+                            <p>Anish K Dinesh </p>
+                            <div class="team-socials">
+                                <a href="mailto: anish19082002@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/anish-krishna-dinesh-543932264" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/anishkd" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\aws-certified-team\Om-img.jpg">
+                            <h4>Member</h4>
+                            <p>Om R Pingale</p>
+                            <div class="team-socials">
+                                <a href="mailto:pingale.om02@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ompingale" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/OmPingale" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Saloni-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Saloni Sawant</p>
+                            <div class="team-socials">
+                                <a href="mailto:salonisawant.2808@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/salonisawant28" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/salonisawant" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Sanika-img.jpg">
+                            <h4>Member</h4>
+                            <p>Sanika Zende</p>
+                            <div class="team-socials">
+                                <a href="mailto: sanikazende27@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/sanika-zende-485452226" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sanikazende" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\documentation-team\Aditi-img.jpg">
+                            <h4>Member</h4>
+                            <p>Aditi Dhepe</p>
+                            <div class="team-socials">
+                                <a href="mailto:aditidhepe25@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/aditi-dhepe-718729236/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/howlcat25" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(2)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="3" class="dark-bg-teams">
+                <h3>Technical Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(3)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-heads">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\core-team\Saloni-img.jpeg">
+                            <h4>Head</h4>
+                            <p>Saloni Sawant</p>
+                            <div class="team-socials">
+                                <a href="mailto: salonisawant.2808@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/salonisawant28" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/salonisawant" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Nikhil-img.JPG">
+                            <h4>Vice Head</h4>
+                            <p>Nikhil Singh</p>
+                            <div class="team-socials">
+                                <a href="mailto:singhnikhil.connect@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/nikhil-singh-72a15224a" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Nikhil-cmdd" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Harshal-img.jpg">
+                            <h4>Member</h4>
+                            <p>Harshal Jagtap</p>
+                            <div class="team-socials">
+                                <a href="mailto:jagtap.harshal2003@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/harshal-jagtap-821997223" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Dev-img.jpg">
+                            <h4>Member</h4>
+                            <p>Dev H Patel</p>
+                            <div class="team-socials">
+                                <a href="mailto: devhp0212@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dev-h-patel-b9a764226" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Dev-HP12" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Sanika-img.png">
+                            <h4>Member</h4>
+                            <p>Sanika Kotgire</p>
+                            <div class="team-socials">
+                                <a href="mailto:sanikakotgire2003@gmail.com " target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/sanika-kotgire-69b361234/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sanika6969/sanika6969" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/technical-team/Mahati-img.jpg">
+                            <h4>Member</h4>
+                            <p>Mahati Kapuganty</p>
+                            <div class="team-socials">
+                                <a href="mailto: mahatikapuganty@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mahati-kapuganty" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Mahati-Kapuganty/" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Dhruvgiri-img.jpg">
+                            <h4>Member</h4>
+                            <p>Dhruvgiri Goswami</p>
+                            <div class="team-socials">
+                                <a href="mailto: dhruvgiri27@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dhruvgiri-goswami-745b01159" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/DhruvgiriGoswami" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Harsh-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Harsh Hande</p>
+                            <div class="team-socials">
+                                <a href="mailto: harshhande95@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/harsh-hande-8bb20a244/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/minuszero-01" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Madhur-img.jpg">
+                            <h4>Member</h4>
+                            <p>Madhur Patil</p>
+                            <div class="team-socials">
+                                <a href="" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\technical-team\Bhushan-img.jpg">
+                            <h4>Member</h4>
+                            <p>Bhushan Chougale</p>
+                            <div class="team-socials">
+                                <a href="mailto: bhushanchouagle162@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/bhushan-chougale-5a0232216/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(3)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="4" class="light-bg-teams">
+                <h3>Management Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(4)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-heads">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Ritik-img.png">
+                            <h4>Head</h4>
+                            <p>Ritik Bohra</p>
+                            <div class="team-socials">
+                                <a href="mailto: ritikbohra2@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ritik-bohra/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ritikjainbohra14" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Sanika-img.jpg">
+                            <h4>Vice Head</h4>
+                            <p>Sanika Zende</p>
+                            <div class="team-socials">
+                                <a href="mailto: sanikazende27@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/sanika-zende-485452226" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sanikazende" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Deepak-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Deepak Shivtare </p>
+                            <div class="team-socials">
+                                <a href="mailto: deepakshivtare0910@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/deepak-shivtare-80a4951b1" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Niranjan-img.jpg">
+                            <h4>Member</h4>
+                            <p>Niranjan Mathur </p>
+                            <div class="team-socials">
+                                <a href="mailto:niranjanmathur2002@gmail.com " target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/niranjan-mathur-166a34207/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/niranjan1704" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Dishant-img.jpg">
+                            <h4>Member</h4>
+                            <p>Dishant Raut</p>
+                            <div class="team-socials">
+                                <a href="mailto: dishantraut36@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dishant-raut-397898151?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\management-team\Omkar-img.jpg">
+                            <h4>Member</h4>
+                            <p>Omkar Pawar</p>
+                            <div class="team-socials">
+                                <a href="mailto: omkarpawar131313@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/omkar-pawar-884760274" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Tulika-img.jpg">
+                            <h4>Member</h4>
+                            <p>Tulika Tanya</p>
+                            <div class="team-socials">
+                                <a href="mailto: tulikatanya0811@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tulika-tanya-79002122a/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Tanya0811" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/management-team/Soham-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Soham Zope</p>
+                            <div class="team-socials">
+                                <a href="mailto: sohamzope@gmail.con" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/soham-zope-796613255/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sohamzope18" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(4)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div id="5" class="dark-bg-teams">
+                <h3>Documentation Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(5)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-heads">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Gurbani-img.jpeg">
+                            <h4>Head</h4>
+                            <p>Gurbani Gambhir</p>
+                            <div class="team-socials">
+                                <a href="mailto: gurbanigambhir23023@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/gurbani-gambhir-9a0762221" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/gurbani-19" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/documentation-team/Shivangi-img.jpg">
+                            <h4>Vice Head</h4>
+                            <p>Shivangi Agarwal</p>
+                            <div class="team-socials">
+                                <a href="mailto: shivangiagarwal0204@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shivangi-agarwal-0b17aa258" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\documentation-team\Aditi-img.jpg">
+                            <h4>Member</h4>
+                            <p>Aditi Dhepe</p>
+                            <div class="team-socials">
+                                <a href="mailto:aditidhepe25@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/aditi-dhepe-718729236/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/howlcat25" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\documentation-team\Shraddha-img.jpg">
+                            <h4>Member</h4>
+                            <p>Shraddha Gaikwad</p>
+                            <div class="team-socials">
+                                <a href="mailto: shraddhagaikwad187@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shraddha-g-689538246" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/shraddha-1997" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/documentation-team/Nupur-img.jpg">
+                            <h4>Member</h4>
+                            <p>Nupur Sangle</p>
+                            <div class="team-socials">
+                                <a href="mailto: nupursangle@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nupur-sangle-160088248" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(5)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="6" class="light-bg-teams">
+                <h3>Content & Design Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(6)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-heads">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Rohit-img.jpeg">
+                            <h4>Head</h4>
+                            <p>Rohit Gadoya</p>
+                            <div class="team-socials">
+                                <a href="mailto: rjshah7445@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rohit-gadoya-5048b1233" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Rohit06G" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/design-team/Nityashree-img.jpg">
+                            <h4>Member</h4>
+                            <p>Nityashree Math</p>
+                            <div class="team-socials">
+                                <a href="mailto:nityashreemath28@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nityashree-math-7b7b2a264" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Nityashreemath" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/design-team/Sarthak-img.jpg">
+                            <h4>Member</h4>
+                            <p>Sarthak Baswankar</p>
+                            <div class="team-socials">
+                                <a href="mailto: sarthaklbaswankar@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/sarthak-baswankar-3bb5b8233" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sarthakbaswankar" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(6)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="7" class="dark-bg-teams">
+                <h3>Social Media and Publicity Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(7)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+                    <div class="team-heads">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Shruti-img.jpg">
+                            <h4>Head</h4>
+                            <p>Shruti Deshmukh</p>
+                            <div class="team-socials">
+                                <a href="mailto: shreshmukh24@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="www.linkedin.com/in/ shrutiganeshraodeshmukh" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ShrutiDeshmukh-2404" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\social-media-team\Arya-img.jpg">
+                            <h4>Vice Head</h4>
+                            <p>Arya Sahu</p>
+                            <div class="team-socials">
+                                <a href="mailto: arya.sahu1013@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/arya-sahu-802609209/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/aryasahu10" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\social-media-team\Shreya-img.jpg">
+                            <h4>Member</h4>
+                            <p>Shreya Salunke</p>
+                            <div class="team-socials">
+                                <a href="mailto:shreya.salunke17@gmail.com " target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shreya-salunke-8593a1224/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\social-media-team\Keya-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Keya Karkun</p>
+                            <div class="team-socials">
+                                <a href="mailto:keyakarkun2002@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/keya-karkun-568801246/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/keyakarkun" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\social-media-team\Parth-img.jpg">
+                            <h4>Member</h4>
+                            <p>Parth Sakpal</p>
+                            <div class="team-socials">
+                                <a href="mailto: parthsakpal2003@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/parth-sakpal" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com//parthsakpal109" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images\team-member-imgs\social-media-team\Siddhi-img.jpeg">
+                            <h4>Member</h4>
+                            <p>Siddhi Katkar </p>
+                            <div class="team-socials">
+                                <a href="mailto: katkarsiddhi69@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/siddhi-katkar-002473232" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com//Siddhikatkar07" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(7)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="8" class="light-bg-teams">
+                <h3>Website Team</h3>
+                <div class="view-members-btn">
+                    <button onclick="viewMembers(8)">View Members <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="hide-team-members" style="display: none;">
+
+                    <div class="team-members">
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Ruchi-img.png">
+                            <h4>Developer</h4>
+                            <p>Ruchi Ranka</p>
+                            <div class="team-socials">
+                                <a href="mailto: ruchiranka2103@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ruchi-ranka/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/RuchiRanka" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/core-team/Ritik-img.png">
+                            <h4>Developer</h4>
+                            <p>Ritik Bohra</p>
+                            <div class="team-socials">
+                                <a href="mailto: ritikbohra2@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ritik-bohra/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ritikjainbohra14" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="team-details">
+                            <img class="team-member-img" src="images/team-member-imgs/design-team/Nityashree-img.jpg">
+                            <h4>Designer</h4>
+                            <p>Nityashree Math</p>
+                            <div class="team-socials">
+                                <a href="mailto: nityashreemath28@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nityashree-math-7b7b2a264" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Nityashreemath" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-members-btn">
+                        <button onclick="hideMembers(8)">Hide Members <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="feedback">
+        <div class="feedback-desc">
+            Please provide us with your valuable feedback!
+        </div>
+        <a href="https://forms.gle/t4yCKo6uvavnnAp58" target="_blank">Feedback</a>
+    </div>
+
+    <div id="contact-us" class="footer">
+        <div>
+            <img src="images/logos/aws-cc-logo.png">
+            <p>AWS Cloud Club <br> 
+                 MIT ADT University, Pune</p>
+        </div>
+        
+        <div>
+            <p>Follow us on</p>
+            <div class="club-socials">
+                <a href="https://www.meetup.com/aws-cloud-club-at-mit-adtu/" target="_blank">
+                    <i class="fa-brands fa-meetup"></i>
+                </a>
+                <a href="mailto:awsccatmitadtu@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/aws-cloud-club-mit-adtu/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/awsccmitadtu/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
